@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+          <td colspan="2">
+            <h1>AOV Winrate Calculator</h1>
+            <h2>Tính tỉ lệ thắng trong AOV</h2>
+          </td>
+        </tr>
+            <tr>
+          <td colspan="2">
+            <span style="color:#900">
+              * Code lấy nguồn từ RoV Winrate Calculator</br>Edit by : <a href="https://www.facebook.com/cong200x" target="_blank">Hoàng Minh Công</a> </br></br>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tỉ lệ thắng hiện tại
+          </td>
+          <td>
+            <input type="text" id="win_now" autocomplete="off"/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tỉ lệ thắng mong muốn
+          </td>
+          <td>
+            <input type="text" id="win_need" autocomplete="off"/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tổng số trận
+          </td>
+          <td>
+            <input type="number" id="n" autocomplete="off"/>
+          </td>
+        </tr>
+      
+        <tr>
+          <td colspan="2" style="text-align:center">
+            <br/>
+            <input type="button" value="Tính" onclick="javascript:calculate()">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div id="output">&nbsp;</div>
+          </td>
+        </tr>
+      </table>
+      <link rel="stylesheet" href="js.js">
+</body>
+</html>
